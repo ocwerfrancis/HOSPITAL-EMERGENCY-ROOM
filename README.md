@@ -78,7 +78,7 @@ Monitor key ER metrics monthly to detect trends and areas for improvement.
 
 - Patient Admission Status (Admitted vs Non-admitted)
 - Age Distribution (Grouped by 10-year intervals)
-- Department Referrals
+  # 🏥Department Referrals
 - Timeliness (% patients seen within 30 minutes)
 - Gender Analysis
 - Racial Demographics
