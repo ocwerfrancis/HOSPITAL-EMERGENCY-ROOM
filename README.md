@@ -60,11 +60,11 @@ The individual or team responsible for coordinating the patient’s care during 
 
 # 📈 BUSINESS REQUIREMENTS
 ## ✅ KPIs to Track:
-- Number of Patients
+- **Number of Patients:**
 Track daily ER visits using an area sparkline to understand patterns such as peak days or seasonal trends.
-- Average Wait Time
+- **Average Wait Time:**
 Show average time patients wait before seeing a medical professional. Use a sparkline to highlight days with longer wait times.
-- Patient Satisfaction Score
+- **Patient Satisfaction Score:**
 Monitor daily average satisfaction score to evaluate service quality. Use sparklines to find dips and correlate them with peak times.
-- Number of Patients Referred
+- **Number of Patients Referred:**
 Count of patients referred to various departments daily. Area sparkline identifies departments with high referral rates.
