@@ -68,3 +68,85 @@ Show average time patients wait before seeing a medical professional. Use a spar
 Monitor daily average satisfaction score to evaluate service quality. Use sparklines to find dips and correlate them with peak times.
 - **Number of Patients Referred:**
 Count of patients referred to various departments daily. Area sparkline identifies departments with high referral rates.
+
+
+# 📆 Dashboard 1: Monthly View
+## Objective:
+Monitor key ER metrics monthly to detect trends and areas for improvement.
+
+**Charts to Include:**
+
+- Patient Admission Status (Admitted vs Non-admitted)
+- Age Distribution (Grouped by 10-year intervals)
+- Department Referrals
+- Timeliness (% patients seen within 30 minutes)
+- Gender Analysis
+- Racial Demographics
+- Time Analysis (by day and hour)
+  
+# 🧾 Dashboard 2: Consolidated View
+## Objective:
+Summarize hospital performance over a customizable date range.
+
+**Charts to Include:**
+Same as Monthly View, but aggregated over selected dates for broader analysis.
+
+# 🧍 Dashboard 3: Patient Details
+## Objective:
+Display patient-level data for detailed review and troubleshooting.
+
+**Data Grid Fields:**
+
+- Patient ID
+- Full Name
+- Gender
+- Age
+- Admission Date
+- Race
+- Wait Time
+- Department Referral
+- Admission Status
+
+
+# Insights and TakeAways And Recommendations
+## 🩺 Descriptive Analysis
+(April 2023 — October 2024)
+
+- The emergency room dataset, covering a period of 19 months, records a total of 9,216 unique patients.
+
+## ⏱️ Patient Wait Time & Satisfaction:
+- The average wait time was approximately 35.3 minutes, indicating a need for improvement to enhance patient flow.
+- The average satisfaction score was 4.99 out of 10, suggesting moderate satisfaction and highlighting areas for improving patient experiences.
+##🏥 Departmental Referrals:
+- A significant number of patients (5,400) did not require referrals.
+Among those referred, the most common were:
+- General Practice (1,840 cases)
+- Orthopedics (995 cases)
+- Followed by Physiotherapy (276 cases) and Cardiology (248 cases)
+## 📆 Peak Busy Periods:
+The busiest days were:
+
+- Mondays (1,377 patients)
+- Saturdays (1,322 patients)
+- Tuesdays (1,318 patients)
+-The busiest hours were 11 AM, 7 PM, 1 PM, and 11 PM, indicating the need for ample staffing during these periods.
+## 👥 Patient Demographics:
+Age Groups:
+- Adults (30–39 years) formed a large group (1,200 patients)
+- Followed by young adults (20–29 years) with 1,188 patients
+- Other significant groups included middle-aged as well (40–50 years)
+## 🌍 Race Distribution:
+- Largest racial group: White (2,571)
+Others:
+
+- African American (1,951)
+- Multiracial (1,557)
+- Asian (1,060)
+- A significant number (1,030) declined to identify their race.
+## 🏨 Admission Patterns:
+- Nearly half the patients (4,612) were admitted, while the rest (4,604) were treated and released.
+# 📝 Summary:
+The data reveals high patient volumes, moderate satisfaction levels, and common referrals to General Practice and Orthopedics.
+Mondays and late night to early mornings hours are particularly busy.
+The patient demographics show a diverse age and racial composition, with nearly equal numbers of admitted and non-admitted patients.
+These insights can help optimize resource allocation and improve patient care in the emergency room.
