@@ -39,3 +39,32 @@ The time elapsed from the patient's arrival at the ER to when they were first at
 
    **Patients CM (Case Manager):**
 The individual or team responsible for coordinating the patient’s care during their visit. The case manager ensures timely treatment, proper documentation, and post-discharge follow-up. Analysis can reveal workload distribution and case outcomes.
+
+# 📌 STEPS IN PROJECT
+1. Requirement Gathering / Business Requirements
+2. Data Walkthrough
+3. Data Connection
+4. Data Cleaning / Quality Check
+5. Data Modeling
+6. Data Processing
+7. DAX Calculations
+8. Dashboard Layouting
+9. Charts Development and Formatting
+10. Dashboard / Report Development
+11. Insights Generation
+
+# 📊 DASHBOARDS (3 Views)
+1. Monthly View
+2. Consolidated View
+3. Patient Details
+
+# 📈 BUSINESS REQUIREMENTS
+## ✅ KPIs to Track:
+- Number of Patients
+Track daily ER visits using an area sparkline to understand patterns such as peak days or seasonal trends.
+- Average Wait Time
+Show average time patients wait before seeing a medical professional. Use a sparkline to highlight days with longer wait times.
+- Patient Satisfaction Score
+Monitor daily average satisfaction score to evaluate service quality. Use sparklines to find dips and correlate them with peak times.
+- Number of Patients Referred
+Count of patients referred to various departments daily. Area sparkline identifies departments with high referral rates.
